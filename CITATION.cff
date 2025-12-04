@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software in your research, please cite it as below."
+authors:
+  - family-names: "Mishin"
+    given-names: "Alexander"
+title: "Probabilistic Demand Forecasting in E-Commerce with Deep Learning Ensemble"
+version: 1.0.0
+date-released: 2025-10-23
+repository-code: ""
+license: MIT

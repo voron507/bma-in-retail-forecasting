@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "master_thesis"
+version = "1.0.0"
+authors = [
+  { name = "Alexander Mishin", email = "a.s.mishin@tilburguniversity.edu" },
+]
+
+description = "Source code for my Master's thesis."
+readme = "README.md"
+
+[tool.setuptools.packages.find]
+where = ["src"]

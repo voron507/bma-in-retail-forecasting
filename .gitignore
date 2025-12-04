@@ -1,0 +1,38 @@
+# --- Python & Source Code ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+
+# --- Environments ---
+env/
+venv/
+.env
+.venv
+
+# --- IDE & System Files ---
+.vscode/
+.idea/
+.DS_Store
+
+# --- Data & Artifacts ---
+data/
+results/
+*.log
+
+# --- PyTorch Lightning ---
+lightning_logs/
+
+# --- File Types to Ignore ---
+*.csv
+*.xlsx
+*.pkl
+*.h5
+*.pt
+*.pth
+*.json
+*.ckpt
+*.tex
