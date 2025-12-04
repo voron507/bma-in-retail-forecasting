@@ -1,33 +1,33 @@
 # Probabilistic Demand Forecasting in E-Commerce with Deep Learning Ensemble
 **Author:** Alexander Mishin
 **Institution:** Tilburg University
-**Date:** October 2025
+**Date:** December 2025
 
 This repository contains the source code, analysis scripts, and supplementary materials for my Master's thesis, "Probabilistic Demand Forecasting in E-Commerce with Deep Learning Ensemble."
-
-## Repository Structure
-. ├── environment.yml ├── README.md ├── data/ ├── notebooks/ ├── results/ ├── src/ └── pyproject.toml
 
 ## Installation & Setup
 **Prerequisite:** You must have [Miniconda](https://docs.conda.io/en/latest/miniconda.html) installed.
 
 ### 1. Clone the Repository
 ```bash
-git clone [URL_TO_YOUR_GIT_REPO]
-cd master_thesis```
+git clone https://github.com/voron507/bma-in-retail-forecasting master_thesis
+cd master_thesis
 
-### 2. Create the Conda Environment
+### 2. Create Conda Environments
 ```bash
-conda master_env create -f environment.yml```
+conda env create -f environments/main_environment.yml
+conda env create -f environments/deepar_tft_environment.yml
+conda env create -f environments/deeptcn_environment.yml
 
 ### 3. Activate the Environment
 ```bash
-conda activate master_env```
+conda activate master_env
 
 ## Usage & Replication
-To run the full analysis pipeline:
+To run the full analysis pipeline, start here:
+
 ```bash
-python src/main.py```
+python src/main.py
 
 ## License
 
