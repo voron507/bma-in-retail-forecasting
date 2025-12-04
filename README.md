@@ -12,22 +12,26 @@ This repository contains the source code, analysis scripts, and supplementary ma
 ```bash
 git clone https://github.com/voron507/bma-in-retail-forecasting master_thesis
 cd master_thesis
+```
 
 ### 2. Create Conda Environments
 ```bash
 conda env create -f environments/main_environment.yml
 conda env create -f environments/deepar_tft_environment.yml
 conda env create -f environments/deeptcn_environment.yml
+```
 
 ### 3. Activate the Environment
 ```bash
 conda activate master_env
+```
 
 ## Usage & Replication
 To run the full analysis pipeline, start here:
 
 ```bash
 python src/main.py
+```
 
 ## License
 
